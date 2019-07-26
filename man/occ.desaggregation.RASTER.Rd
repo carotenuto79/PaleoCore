@@ -19,7 +19,7 @@ occ.desaggregation.RASTER(df, colxy, rast, plot = T)
 a matrix including the reduced points
 }
 \description{
-<The function removes duplicated points falling into the same raster cell>
+The function removes duplicated points falling into the same raster cell.
 }
 \examples{
 \dontrun{
@@ -38,4 +38,7 @@ data_mammuth_reduced<-occ.desaggregation.RASTER(df=data_mammuth, colxy=4:5,
 rast=prediction_ground, plot=T)
 
 }
+}
+\author{
+Mirko Di Febbraro
 }

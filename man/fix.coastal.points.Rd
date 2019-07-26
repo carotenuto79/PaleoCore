@@ -26,7 +26,7 @@ fix.coastal.points(data, xy.cols, r, ncell, clip.by.poly = F, poly,
 a matrix including the shifted points
 }
 \description{
-<The function moves points to the nearest non-NA cell of a base raster within a maximum distance.>
+The function moves points to the nearest non-NA cell of a base raster within a maximum distance.
 }
 \examples{
 \dontrun{
@@ -44,4 +44,7 @@ data_clupus<-as.data.frame(data_clupus)
 data_mammuth_reduced<-fix.coastal.points(data_clupus, xy.cols = 4:5,
 r = prediction_ground, ncell = 1, occ.desaggregation = F)
 }
+}
+\author{
+Mirko Di Febbraro
 }

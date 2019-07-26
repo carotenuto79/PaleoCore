@@ -29,7 +29,7 @@ raster.leaflet.plot(RASTER.LAYER, PROJECT = F, DOMAIN = NULL,
 a data.frame with the reduced points
 }
 \description{
-<The function uses the leaflet package to plot raster maps, also allowing zoom and navigation functionalities.>
+The function uses the leaflet package to plot raster maps, also allowing zoom and navigation functionalities.
 }
 \examples{
 \dontrun{
@@ -38,4 +38,7 @@ a data.frame with the reduced points
   raster(system.file("exdata/prediction_ground.gri", package="PaleoCore"))->prediction_ground
   raster.leaflet.plot(prediction_ground)
 }
+}
+\author{
+Mirko Di Febbraro
 }

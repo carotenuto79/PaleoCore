@@ -13,7 +13,7 @@ remove.NAs.stack(rast.stack)
 a \code{RasterStack} object without unpaired NA cells
 }
 \description{
-<The function removes unpaired NA cells from a RasterStack>
+The function removes unpaired NA cells from a RasterStack.
 }
 \examples{
 \dontrun{
@@ -30,4 +30,7 @@ s2<-remove.NAs.stack(s1)
 
 summary(rasterToPoints(s2))
 }
+}
+\author{
+Mirko Di Febbraro
 }
