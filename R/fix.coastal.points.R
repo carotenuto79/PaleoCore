@@ -1,6 +1,6 @@
 #' @title Shift points to the nearest non-NA cell of a base raster within a maximum distance
 #'
-#' @description <The function moves points to the nearest non-NA cell of a base raster within a maximum distance.>
+#' @description The function moves points to the nearest non-NA cell of a base raster within a maximum distance.
 #' @param data a matrix or data.frame containing the points coordinates
 #' @param xy.cols a numeric vector indicating the IDs of the x-y columns
 #' @param r a \code{RasterLayer} object to be used as base raster map
@@ -13,6 +13,7 @@
 #' @importFrom sp SpatialPoints spDists
 #' @importFrom tcltk tkProgressBar setTkProgressBar
 #' @return a matrix including the shifted points
+#' @author Mirko Di Febbraro
 #' @examples \dontrun{
 #' library(raster)
 #'raster(system.file("exdata/prediction_ground.gri", package="PaleoCore"))->prediction_ground

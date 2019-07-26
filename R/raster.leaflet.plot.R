@@ -1,6 +1,6 @@
 #' @title Plot a \code{RasterLayer} or \code{RasterStack} object through the leaflet functionalities
 #'
-#' @description <The function uses the leaflet package to plot raster maps, also allowing zoom and navigation functionalities.>
+#' @description The function uses the leaflet package to plot raster maps, also allowing zoom and navigation functionalities.
 #' @param RASTER.LAYER a a \code{RasterLayer} or \code{RasterStack} object to be plotted
 #' @param PROJECT a logical vector indicating if the raster map must be projected to EPSG:3857
 #' @param DOMAIN a numerical vector indicating the range of raster values to be plotted
@@ -15,6 +15,7 @@
 #' @importFrom raster projectRaster projectExtent values nlayers
 #' @importFrom grDevices terrain.colors
 #' @return a data.frame with the reduced points
+#' @author Mirko Di Febbraro
 #' @examples \dontrun{
 #'   library(raster)
 #'   data(lgm)

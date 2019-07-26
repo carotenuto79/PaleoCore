@@ -1,10 +1,11 @@
 #' @title Remove unpaired NA cells from a RasterStack
 #'
-#' @description <The function removes unpaired NA cells from a RasterStack>
+#' @description The function removes unpaired NA cells from a RasterStack.
 #' @param rast.stack a \code{RasterStack} object where to remove NAs
 #' @export
 #' @importFrom raster calc stack
 #' @return a \code{RasterStack} object without unpaired NA cells
+#' @author Mirko Di Febbraro
 #' @examples \dontrun{
 #' library(raster)
 #' raster(system.file("exdata/prediction_ground_thinned.gri",

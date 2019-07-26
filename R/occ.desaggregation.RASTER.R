@@ -1,6 +1,6 @@
 #' @title Remove duplicated points falling into the same raster cell
 #'
-#' @description <The function removes duplicated points falling into the same raster cell>
+#' @description The function removes duplicated points falling into the same raster cell.
 #' @param df a matrix or data.frame containing the points coordinates
 #' @param colxy a numeric vector indicating the IDs of the x-y columns
 #' @param rast a \code{RasterLayer} object to be used as base raster map
@@ -10,6 +10,7 @@
 #' @importFrom graphics points
 #' @importFrom grDevices dev.new
 #' @return a matrix including the reduced points
+#' @author Mirko Di Febbraro
 #' @examples \dontrun{
 #' library(raster)
 #' raster(system.file("exdata/prediction_ground.gri", package="PaleoCore"))->prediction_ground
